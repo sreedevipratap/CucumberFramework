@@ -45,7 +45,7 @@ public class Steps {
 		homePage=pageObjectManager.getHomePage();
 		homePage.navigateTo_HomePage();
  
-	   /*adding a new line*/ 
+	   /*adding a new line 123*/ 
 	}
 
 	@When("^he search for \"([^\"]*)\"$")
