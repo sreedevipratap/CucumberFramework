@@ -145,6 +145,8 @@ public class Steps {
 	@When("^select payment method as \"([^\"]*)\" payment$")
 	public void select_payment_method_as_payment(String arg1) throws Throwable {
 		//checkout=new CheckOutPage(driver);
+		
+		Thread.sleep(3000);
 		checkOutPage.select_PaymentMethod("CheckPayment");
 		
 		/*List<WebElement> paymentMethod = driver.findElements(By.cssSelector("ul.wc_payment_methods li"));
