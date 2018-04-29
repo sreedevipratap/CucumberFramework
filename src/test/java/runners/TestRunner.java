@@ -1,5 +1,5 @@
 package runners;
-/*just a sample message */
+/*just a sample message  */
 
 import org.junit.runner.RunWith;
 
